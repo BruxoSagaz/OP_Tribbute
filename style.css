@@ -1,0 +1,123 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Dancing+Script:wght@500;600;700&family=Gideon+Roman&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: one;
+    src: url(fonts/one_piece_font.ttf);
+}
+
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color:#F27329 ;
+   font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: #F28B30;
+    padding: 10px 0;
+}
+
+
+
+/* Auxilliar Classes */
+
+.container{
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.clear{clear: both;}
+
+.selected{
+    font-weight: bolder;
+}
+
+/* Classes */
+
+/*
+## Header
+*/
+
+header > .container{
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    font-family: 'one';
+    font-size: 21px;
+}
+
+
+.img{
+    height: 25px;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+}
+
+.menu ul{list-style-type: none;}
+.menu li{
+    display: inline-block;
+    padding: 7px 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Action Call */
+
+section.cta{
+    background-color: #F2BE5C;
+    padding: 30px 0;
+    text-align: center;
+}
+
+section.cta i{
+    font-size: 30px;
+}
+
+section.cta h2,
+section.cta h3{
+    font-size: 21px;
+    font-weight: normal;
+}
+
+section.cta h3 > b{
+    color: #91B0D9;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width:786px) {
+    
+}
+
+
+
+
+/*
+Color pallet
+
+color1: #F27329
+color2: #F28B30
+color3: #F2BE5C
+color4: #4895D9
+color5: #91B0D9
+
+*/
